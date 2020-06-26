@@ -22,6 +22,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 # Files Contained 
 1. run_analysis. r :  The code to complete the above mentioned tasks from given data source. The code is written in R and saved with the corresponding extension.
 2. CodeBook.md :  A code book that describes the variables, the data, and any transformations or work that is performed to clean up the data.
+3. README.md : The documentation  explains how all of the scripts work and how they are connected.
 
 # Brief Description and Chronology of Code
 1. The dataset is downloaded and unzipped to extract all contents. 
