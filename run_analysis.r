@@ -74,7 +74,7 @@ tidy_dataset_Samsung <- tidy_dataset_Samsung[,c(1,69,3:68)]
 ## 5. Generating second, independent tidy data set 
 ## with the average of each variable for each activity and each subject
 
-average_dataset_samsung <- tidy_dataset_Samsung %>% group_by(Subject Data, Activity) %>% summarise_all(mean)
+avg_dataset_samsung <- tidy_dataset_Samsung %>% group_by(Subject Data, Activity) %>% summarise_all(mean)
 
 write.table(avg_dataset_samsung, "Average Data - Samsungdb.txt", row.names = FALSE)
 
